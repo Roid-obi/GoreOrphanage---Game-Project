@@ -14,6 +14,10 @@ public class DapurTua extends GameWorld {
             addObject(kunci2, 506, 81);
         }
 
+        // Tambahkan Hantu1
+        Hantu1 hantu1 = new Hantu1();
+        addObject(hantu1, 500, 130);
+
         // Tambahkan Hantu2
         Hantu2 hantu2 = new Hantu2();
         addObject(hantu2, 144, 80);

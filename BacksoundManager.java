@@ -5,7 +5,7 @@ public class BacksoundManager {
 
     public static void play() {
         if (!backsound.isPlaying()) {
-            backsound.setVolume(60); // volume
+            backsound.setVolume(85); // volume
             backsound.playLoop();
         }
     }

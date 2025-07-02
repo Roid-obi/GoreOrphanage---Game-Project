@@ -8,7 +8,7 @@ public class BadEnding extends World {
     public BadEnding() {
         super(600, 400, 1);
         BacksoundManager.stop();
-
+        Greenfoot.playSound("badend-sound.mp3");
         // Matikan backsound sebelumnya
         GreenfootSound backsound = new GreenfootSound("backsound.mp3");
         backsound.stop();

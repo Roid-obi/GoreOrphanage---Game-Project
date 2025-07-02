@@ -14,7 +14,7 @@ public class JumpScare extends World
         GreenfootImage background = new GreenfootImage("unnamed.jpg");
         background.scale(getWidth(), getHeight());
         setBackground(background);
-        Greenfoot.delay(60);
+        // Greenfoot.delay(60);
         Greenfoot.playSound("scream.mp3");
         Greenfoot.setWorld(new GameOver());
     }

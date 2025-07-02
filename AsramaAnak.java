@@ -17,6 +17,10 @@ public class AsramaAnak extends GameWorld {
             addObject(kunci1, 130, 127);
         }
 
+        // Tambahkan Hantu2
+        Hantu2 hantu2 = new Hantu2();
+        addObject(hantu2, 500, 310);
+
         // tidak ditambahkan new Player() di sini
         // karena Player akan dibawa dari world sebelumnya
         Kasur kasur = new Kasur();
