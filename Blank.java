@@ -1,10 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-public class GameOver extends World {
-    public GameOver() {
+/**
+ * Write a description of class blank here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Blank extends World
+{
+    public Blank() {
         super(600, 400, 1);
-        BacksoundManager.stop();
-        showText("Mereka menemukanku lebih dulu...", 300, 200);
+        showText("Tekan ENTER...", 300, 200);
     }
 
     public void act() {

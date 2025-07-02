@@ -4,8 +4,7 @@ public class MenuWorld extends World {
     public MenuWorld() {
         super(600, 400, 1);
         prepare();
-        Greenfoot.playSound
-        ("backsound.mp3");
+        BacksoundManager.play();
     }
     
     private void prepare() {

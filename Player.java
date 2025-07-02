@@ -73,18 +73,22 @@ public class Player extends Actor {
         if (isTouching(Kunci1.class)) {
             removeTouching(Kunci1.class);
             kunciDapat++;
+            GameWorld.kunci1Diambil = true;
         }
         if (isTouching(Kunci2.class)) {
             removeTouching(Kunci2.class);
             kunciDapat++;
+            GameWorld.kunci2Diambil = true;
         }
         if (isTouching(BukuLama.class)) {
             removeTouching(BukuLama.class);
             bukuDiambil = true;
+            GameWorld.bukuLamaDiambil = true;
         }
         if (isTouching(Boneka.class)) {
             removeTouching(Boneka.class);
             bonekaDidapat = true;
+            GameWorld.bonekaDiambil = true;
         }
     }
 
